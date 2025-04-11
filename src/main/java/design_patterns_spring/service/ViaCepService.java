@@ -1,6 +1,6 @@
-package service;
+package design_patterns_spring.service;
 
-import model.Endereco;
+import design_patterns_spring.model.Endereco;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package model;
+package design_patterns_spring.model;
 
 import jakarta.persistence.*;
 

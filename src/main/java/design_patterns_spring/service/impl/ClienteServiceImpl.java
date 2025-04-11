@@ -1,13 +1,13 @@
-package service.impl;
+package design_patterns_spring.service.impl;
 
-import model.Cliente;
-import model.ClienteRepository;
-import model.Endereco;
-import model.EnderecoRepository;
+import design_patterns_spring.model.Cliente;
+import design_patterns_spring.model.ClienteRepository;
+import design_patterns_spring.model.Endereco;
+import design_patterns_spring.model.EnderecoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import service.ClienteService;
-import service.ViaCepService;
+import design_patterns_spring.service.ClienteService;
+import design_patterns_spring.service.ViaCepService;
 
 import java.util.Optional;
 

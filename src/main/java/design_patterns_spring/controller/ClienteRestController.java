@@ -1,10 +1,10 @@
-package controller;
+package design_patterns_spring.controller;
 
-import model.Cliente;
+import design_patterns_spring.model.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.ClienteService;
+import design_patterns_spring.service.ClienteService;
 
 @RestController
 @RequestMapping("clientes")
@@ -26,7 +26,7 @@ public class ClienteRestController {
         clienteService.inserir(cliente);
         return ResponseEntity.ok(cliente);
     }
-    @PutMapping
+    @PutMapping("/{id}")
     public ResponseEntity<Cliente> atualizar(@PathVariable Long id, @RequestBody Cliente cliente){
         clienteService.atualizar(id,cliente);
         return ResponseEntity.ok(cliente);
