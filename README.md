@@ -19,4 +19,4 @@
 -  ViaCep
     - API externa utilizada para fornecer dados sobre requisições de CEP, por meio do formato JSON
 - Banco de Dados H2
-    - Para teste de aplicação rápido e simples
+    - Para teste de persistência rápidos e simples
