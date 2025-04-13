@@ -13,7 +13,6 @@
     - Gerenciamento de build 
 -  Swagger/OpenAPI
     -  Documentação, consumo e teste da aplicação, através de uma interface simples
-    -  Acesso: http://localhost:8080/swagger-ui/index.html
 -  Biblioteca Feign
     - Usado para consumo de API externa
     - Utiliza o formato JSON
